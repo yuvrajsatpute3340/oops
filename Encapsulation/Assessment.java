@@ -237,7 +237,7 @@ class StudentInfo{
 	
 	public String getpercentage()
 	{
-		//System.out.println(this.showprecentage);
+		System.out.println(this.showprecentage);
 		String str=new String();
 		if(showprecentage) {
 		return perecentage+" "+str; 

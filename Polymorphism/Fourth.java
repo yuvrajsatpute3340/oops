@@ -5,7 +5,7 @@ public class Fourth {
 	public static void main(String[] args) {
 		Human human=new man();
 		A a=human.show();
-		A a1=new c();
+		c a1=new c();
 	}
 }
 class Human

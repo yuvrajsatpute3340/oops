@@ -57,7 +57,7 @@ public B obj() {
 }
 }
 
-class A{
+class D{
 
 void sleep() {
 	System.out.println();
