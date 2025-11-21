@@ -42,7 +42,7 @@ class man extends Human
 		System.out.println("man is running...");
 	}
 }
-class A
+class H
 {
 	
 }
