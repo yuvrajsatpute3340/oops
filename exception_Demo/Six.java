@@ -26,7 +26,7 @@ package exception_Demo;
 	            int result = num / den;
 	            System.out.println("Result = " + result);
 	        } 
-	        	        catch (InputMismatchException e) {
+	       	        catch (InputMismatchException e) {
 	            System.out.println("Error: Please enter only integer values.");
 	        }
 	        	        catch (ArithmeticException e) {
