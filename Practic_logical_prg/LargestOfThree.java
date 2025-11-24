@@ -2,7 +2,7 @@ package Practic_logical_prg;
 
 public class LargestOfThree {
     public static void main(String[] args) {
-        int a = 10, b = 30, c = 15;
+        int a = 10, b = 20, c = 15;
 
         if(a > b && a > c)
             System.out.println(a + " is largest");
