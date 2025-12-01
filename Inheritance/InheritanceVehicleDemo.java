@@ -15,10 +15,10 @@ class Vehicle {
  }
 }
 
-class Car extends Vehicle {
+class Carr extends Vehicle {
  protected String model;
 
- public Car(String brand, int year, String model) {
+ public Carr(String brand, int year, String model) {
      super(brand, year); // Call parent constructor
      this.model = model;
  }
@@ -29,8 +29,7 @@ class Car extends Vehicle {
  }
 }
 
-//Grandchild class
-class ElectricCar extends Car {
+class ElectricCar extends Carr {
  private int batteryCapacity; // in kWh
 
  public ElectricCar(String brand, int year, String model, int batteryCapacity) {
@@ -39,9 +38,14 @@ class ElectricCar extends Car {
  }
 
  public void displayElectricCarInfo() {
-     displayCarInfo(); 
+     displayCarrInfo(); 
      System.out.println("Battery Capacity: " + batteryCapacity + " kWh");
  }
+
+private void displayCarrInfo() {
+	// TODO Auto-generated method stub
+	
+}
 }
 
 public class InheritanceVehicleDemo {
