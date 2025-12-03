@@ -11,7 +11,7 @@ public class Three {
         letters.add("C");
         letters.add("D");
 
-        Collections.rotate(letters, 2);
+        Collections.rotate(letters, 1);
 
         System.out.println("ArrayList after rotating: " + letters);
     }
