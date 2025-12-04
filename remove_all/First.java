@@ -1,0 +1,30 @@
+package remove_all;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class First {
+
+	public static void main(String[] args) {
+		
+		List<Integer>list=new ArrayList<Integer>();
+		
+		list.add(11);
+		list.add(13);
+		list.add(16);
+		list.add(17);
+		list.add(20);
+		
+		List<Integer>list2=new ArrayList<Integer>();
+		
+		for(int i :list)
+		{
+			if (i%2==0)
+			{
+				list2.add(i);
+				
+			}
+		}
+		}
+
+}
