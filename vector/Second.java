@@ -22,7 +22,7 @@ public class Second {
         System.out.println(v.add("India"));
         System.out.println(v1.add(10));
         System.out.println(v.indexOf(v1));
-        System.out.println(v1.isEmpty());
+      //  System.out.println(v1.isEmpty());
 
 	}
 
