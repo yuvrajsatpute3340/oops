@@ -9,9 +9,7 @@ public class Count_Digit_num {
 		    count++;
 		    num /= 10;
 		}
-
 		System.out.println(count);
 
 	}
-
 }
