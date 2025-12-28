@@ -21,7 +21,7 @@ class Demo1
 		
 	}
 	public String getPrivate() {
-		return null;
+		return this.name;
 	}
 	public void Applayname(String name)
 	{
@@ -34,8 +34,8 @@ class Demo1
 			this.name=null;
 		}
 	}
-	public String getPrivate1()
-	{
-		return this.name;
-	}
+	//public String getPrivate1()
+	//{
+	//	return this.name;
+	//}
 }
