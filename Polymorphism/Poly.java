@@ -6,8 +6,6 @@ public class Poly {
 		
 		Calculator1 cals=new Calculator1();
 		cals.add(12,33,56);
-		
-		System.out.println();
 	}
 }
 class Calculator1
