@@ -1,7 +1,5 @@
 package Polymorphism;
 
-import javax.swing.text.html.HTMLDocument.HTMLReader.ParagraphAction;
-
 public class Poly_1 {
 
 	public static void main(String[] args) {
