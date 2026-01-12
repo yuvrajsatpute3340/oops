@@ -20,7 +20,7 @@ public class Function_1 {
 			return s;
 		};
 		Function<Character[],Integer>fun3=fun.compose(fun2);
-		System.out.println(fun3.apply(new Character[] {'a','b','c'}));
+		System.out.println(fun3.apply(new Character[] {'a','b','c'})); 
 	}
 
 }
