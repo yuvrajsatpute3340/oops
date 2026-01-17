@@ -13,5 +13,6 @@ public class Six {
                 .collect(Collectors.toList());
 
         System.out.println(result); // [4, 16, 36]
+        
     }
 }
