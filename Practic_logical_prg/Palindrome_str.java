@@ -6,7 +6,7 @@ public class Palindrome_str {
 		String s = "Yuvraj";
         String rev = "";
 
-        for (int i = s.length() - 1; i >= 0; i--) {
+        for (int i = s.length() -1; i >= 0; i--) {
             rev += s.charAt(i);
         }
 
