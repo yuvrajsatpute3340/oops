@@ -21,6 +21,7 @@ public class Twelth {
 				.flatMap((i)->{return i.stream();})
 				.flatMap((i)->{return i.stream();})
 				.reduce(0,(i,j)->(i+j));
+		       
 		
 		System.out.println(sum);
 		System.out.println(list7);
