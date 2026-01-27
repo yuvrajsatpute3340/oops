@@ -12,6 +12,13 @@ public class First {
 		.map(great::concat)
 		.map(String::toUpperCase)
 		.forEach((i)->{System.out.println(i);});
+		
+//		Integer gerat=6390;
+//		List.of(10,20,30,40,50,60,70,80,90)
+//		.stream()
+//		.map(i -> gerat + i)
+//		.toList()
+//		.forEach((i)->{System.out.println(i);});
 	}
 
 }
