@@ -9,13 +9,12 @@ public class Fourth {
 
 	public static void main(String[] args) {
 		
-		 List<String> list = List.of("Y", "U", "V", "R", "A", "J");
+		 List<String> list = List.of("Y", "U", "V", "R", "A", "J","S","A","T","p","U","T","E");
 
 	        Map<String, List<String>> set = list.stream()
 	                .collect(Collectors.groupingBy(i -> i));
 
 	        Map<String, Integer> mp2 = new HashMap<>();
-
 	        for (Map.Entry<String, List<String>> mp : set.entrySet()) {
 	            System.out.println(mp.getKey() + " = " + mp.getValue().size());
 	            
