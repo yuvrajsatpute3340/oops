@@ -17,10 +17,10 @@ public class Second {
 		//System.out.println(ops.get());
 		
 		//ifPresent()
-		Optional<String>ops=Optional.ofNullable("Yuvraj");
-		System.out.println(ops.isPresent());
-		System.out.println(ops);
-		ops.ifPresent((i)->System.out.println(i.toUpperCase()));
+		Optional<String>ops=Optional.ofNullable("Yuvraj");//true
+		System.out.println(ops.isPresent());//Optional[Yuvraj]
+		System.out.println(ops);//YUVRAJ
+		ops.ifPresent((i)->System.out.println(i.toUpperCase()));//Yuvraj
 		ops.ifPresentOrElse(System.out::println,()->{System.out.println("nothing");});
 		}
 
