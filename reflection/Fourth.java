@@ -25,7 +25,7 @@ public class Fourth {
 		
 		Field f=cl.getDeclaredField("name");
 		f.setAccessible(true);
-		//f.set(uni, "yuvraj");
+		f.set(uni, "yuvraj");
 		System.out.println(f.get(uni));
 		System.out.println();
 		
