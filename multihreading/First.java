@@ -13,7 +13,7 @@ public class First {
 	}
 
 }
-class NumberPrinter implements Runnable
+class NumberPrinter extends Thread
 {
 
 	@Override
