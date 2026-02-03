@@ -15,7 +15,6 @@ public class Fourth {
 		UY.start();
 		
 		Thread.sleep(2000);
-	   // System.out.println(ab.ram());
 		System.out.println(ab.sham());
 	}
 

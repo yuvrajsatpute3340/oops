@@ -22,7 +22,7 @@ public class Third {
 }
 class ABC
 {
-	int count;
+	int count=0;
 	public void abc()
 	{
 		synchronized(this) {
