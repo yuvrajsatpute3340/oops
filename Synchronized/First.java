@@ -1,8 +1,8 @@
 package Synchronized;
 
-
 public class First {
-public static void main(String[] args) throws Exception {
+	
+        public static void main(String[] args) throws Exception {
 		
 		Demo1 demo =new Demo1();
 		One one = new One();
@@ -23,10 +23,9 @@ class Demo1{
 	int count=0;
 	public void Incress()
 	{
-		synchronized(this) {
 		this.count++;
 		}
-	}
+	
 	public int getIncres()
 	{
 		return this.count;
