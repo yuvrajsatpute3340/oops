@@ -8,9 +8,9 @@ public class Reverse_String {
 		//System.out.println(reversed);
 		
 		
-		//String str="Yuvi";
-		//String reversed=new StringBuffer(str).reverse().toString();
-		//System.out.println(reversed);
+		String str="Yuvi";
+		String reversed=new StringBuffer(str).reverse().toString();
+		System.out.println(reversed);
 		
 		
 		//String Str="Ram";
