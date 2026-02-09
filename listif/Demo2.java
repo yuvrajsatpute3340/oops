@@ -14,9 +14,13 @@ public class Demo2 {
 		list.add("Abhi");
 		list.add("Avi");
 		list.add("Yuvraj");
-		list.lastIndexOf(list);
 		
 		System.out.println(list);
+		for (int i=0;i<list.size();i++)
+		{
+			System.out.println(list.get(i));
+		}
+		System.out.println(list.contains("Yuvraj"));
 		
 	}
 
