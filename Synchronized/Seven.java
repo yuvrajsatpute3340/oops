@@ -15,7 +15,7 @@ public class Seven {
 			System.out.println("ended....");
 		});
 		t1.start();
-		System.out.println("**********");
+	//	System.out.println("**********");
 		System.out.println(flag);
 		Thread.sleep(2000);
 		
