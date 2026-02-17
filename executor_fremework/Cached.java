@@ -7,9 +7,9 @@ public class Cached {
 
 	public static void main(String[] args) {
 		
-		//ExecutorService ex=Executors.newCachedThreadPool();
+		ExecutorService ex=Executors.newCachedThreadPool();
 		//ExecutorService ex=Executors.newSingleThreadExecutor();
-		ExecutorService ex=Executors.newFixedThreadPool(1);
+		//ExecutorService ex=Executors.newFixedThreadPool(1);
 		
 		Runnable run=()->{
 			System.out.println(Thread.currentThread().getName()+"Task1");
