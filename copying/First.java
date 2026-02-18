@@ -14,7 +14,7 @@ public class First {
 		
 		two.name="i10";
 		System.out.println(stud.name);
-		System.out.println(stud.id);
+		//System.out.println(stud.id);
 		
 
 	}
