@@ -5,8 +5,6 @@ import java.lang.reflect.Constructor;
 public class Seven {
     public static void main(String[] args) throws Exception {
         Class<?> c = Class.forName("reflection.Book");
-
-        // सर्व constructors list करणे
         Constructor<?>[] constructors = c.getDeclaredConstructors();
         for (Constructor<?> con : constructors) {
             System.out.println("Constructor: " + con.getName());
