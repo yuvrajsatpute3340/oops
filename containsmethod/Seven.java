@@ -12,7 +12,7 @@ public class Seven {
         list.add(7);
         list.add(4);
 
-        Collections.sort(list); // 🔥 important
+        Collections.sort(list); //  important
 
         int start = list.get(0);
         int end = list.get(list.size() - 1);

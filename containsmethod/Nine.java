@@ -1,18 +1,18 @@
 package containsmethod;
 
-import java.util.*;
-
-public class Eight {
+public class Nine {
     public static void main(String[] args) {
 
-        String str = "abbef";
+        String str = "aBcEg";
+
+        str = str.toLowerCase(); // 🔥 important
 
         char start = str.charAt(0);
         char end = str.charAt(str.length() - 1);
 
         for (char ch = start; ch <= end; ch++) {
             if (str.indexOf(ch) == -1) {
-                System.out.println(ch);
+                System.out.print(ch + " ");
             }
         }
     }
