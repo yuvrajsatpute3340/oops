@@ -5,7 +5,7 @@ public class Nine {
 
         String str = "aBcEg";
 
-        str = str.toLowerCase(); // 🔥 important
+        str = str.toLowerCase(); // important
 
         char start = str.charAt(0);
         char end = str.charAt(str.length() - 1);
