@@ -1,23 +1,22 @@
 package Database;
 
-public class di{
+public class Casting_example2 {
 
     public static void main(String[] args) {
         
         // Narrowing (Explicit Casting)
-        double price = 99.99;   // big container (double)
+        double price = 199.99;
         System.out.println(price);
         
-        int roundedPrice = (int) price;  // converting to smaller container (int)
+        int roundedPrice = (int) price; // decimal part removed
         System.out.println(roundedPrice);
-        // decimal part is lost
         
         
         // Widening (Implicit Casting)
-        int quantity = 5;   // smaller container (int)
+        int quantity = 5;
         System.out.println(quantity);
         
-        double totalQuantity = quantity;  // automatically converted to double
+        double totalQuantity = quantity; // automatically converted
         System.out.println(totalQuantity);
     }
 }
